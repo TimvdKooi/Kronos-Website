@@ -1,0 +1,258 @@
+[
+    
+    {
+        "name": "agendaitems",
+        "translationKey": "agendaitem",
+        "fields": [{
+            "name": "name",
+            "type": "text",
+            "required": true
+        }, {
+            "name": "name_en",
+            "type": "text",
+            "required": true
+        }, {
+            "name": "agendaitemtype_id",
+            "type": "number",
+            "required": true
+        }, {
+            "name": "date",
+            "type": "text"
+        }, {
+            "name": "intern",
+            "type": "boolean"
+        }, {
+            "name": "description",
+            "type": "textarea"
+        }, {
+            "name": "description_en",
+            "type": "textarea"
+        }, {
+            "name": "location",
+            "type": "text"
+        }, {
+            "name": "url",
+            "type": "text"
+        }, {
+            "name": "commission_id",
+            "type": "number"
+        }, {
+            "name": "subscribe",
+            "type": "boolean"
+        }, {
+            "name": "subscriptiondeadline",
+            "type": "text"
+        }, {
+            "name": "maxsubscription",
+            "type": "number"
+        }]
+    },
+    {
+        "name": "agendaitemtype_eventtypes",
+        "translationKey": "agendaitemeventtype",
+        "fields": [{
+            "name": "agendaitemtype_id",
+            "type": "number"
+        }, {
+            "name": "eventtype_id",
+            "type": "number"
+        }]
+    },
+    {
+        "name": "agendaitemtypes",
+        "translationKey": "agendaitemtypes",
+        "fields": [{
+            "name": "name",
+            "type": "text"
+        }, {
+            "name": "name_en",
+            "type": "text"
+        }, {
+            "name": "is_match",
+            "type": "boolean"
+        }]
+    },
+    {
+        "name": "aliases",
+        "translationKey": "alias",
+        "fields": [
+            {
+            "name": "name",
+            "type": "text",
+            "required": true
+            },
+            {
+            "name": "emailaddress",
+            "type": "text",
+            "required": true
+            },
+            {
+            "name": "description",
+            "type": "text",
+            "required": true
+            }
+        ]
+    },
+    {
+        "name": "comments",
+        "translationKey": "comments",
+        "fields": [{
+            "name": "user_id",
+            "type": "number"
+        }, {
+            "name": "agendaitem_id",
+            "type": "number"
+        }, {
+            "name": "result_id",
+            "type": "number"
+        }, {
+            "name": "photo_id",
+            "type": "number"
+        }, {
+            "name": "newsitem_id",
+            "type": "number"
+        }, {
+            "name": "commenttext",
+            "type": "text"
+        }, {
+            "name": "commentable_id",
+            "type": "number"
+        }, {
+            "name": "commentable_type",
+            "type": "number"
+        }]
+    },
+    {
+        "name": "commission_memberships",
+        "translationKey": "commission_memberships",
+        "fields": [{
+            "name": "function",
+            "type": "text"
+        }, {
+            "name": "installed",
+            "type": "boolean"
+        }, {
+            "name": "user_id",
+            "type": "number"
+        }, {
+            "name": "commission_id",
+            "type": "number"
+        }]
+    },
+    {
+        "name": "commissions",
+        "translationKey": "commissions",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "events",
+        "translationKey": "events",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "eventtypes",
+        "translationKey": "eventtypes",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "folders",
+        "translationKey": "folders",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "kronometers",
+        "translationKey": "kronometers",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "mailinglists",
+        "translationKey": "mailinglists",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "newsitems",
+        "translationKey": "newsitems",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "pages",
+        "translationKey": "pages",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "photoalbums",
+        "translationKey": "photoalbums",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    },
+    {
+        "name": "photos",
+        "translationKey": "photos",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    }
+    ,
+    {
+        "name": "results",
+        "translationKey": "results",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    }
+    ,
+    {
+        "name": "subscriptions",
+        "translationKey": "subscriptions",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    }
+    ,
+    {
+        "name": "user_types",
+        "translationKey": "user_types",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    }
+    ,
+    {
+        "name": "users",
+        "translationKey": "users",
+        "fields": [{
+            "name": "",
+            "type": "text"
+        }]
+    }
+]

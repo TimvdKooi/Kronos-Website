@@ -174,7 +174,7 @@ Rails.application.routes.draw do
           get 'birthdays'
         end
       end
-
+      resources :comments
       get '/abilities', :to => 'abilities#index'
     end
   end
