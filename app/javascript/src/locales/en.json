@@ -163,6 +163,7 @@
       "alias_plural": "Aliases"
     },
     "agendaitem": {
+      "id": "id",
       "name": "Name (Dutch)",
       "name_en": "Name (English)",
       "date": "Date",
@@ -178,6 +179,7 @@
       "maxsubscription": "Maximum subscriptions"
     },
     "newsitem": {
+      "id": "id",
       "title": "Title (Dutch)",
       "title_en":"Title (English)",
       "news": "News message (Dutch)",
@@ -185,6 +187,7 @@
       "articlephoto": "Photo"
     },
     "page": {
+      "id": "id",
       "pagetag": "Page tag",
       "pagetag_en":"Page tag (English)",
       "information": "Page content (Dutch)",
@@ -195,6 +198,7 @@
       "sort_order": "Sort order"
     },
     "photoalbum": {
+      "id": "id",
       "name": "Name (Dutch)",
       "name_en":"Name (English)",
       "date": "Date",
@@ -202,11 +206,13 @@
       "external_url": "External URL"
     },
     "contact": {
+      "id": "id",
       "name": "Name",
       "email": "Email",
       "message": "Message"
     },
     "mailingList": {
+      "id": "id",
       "name": "Name",
       "description": "Description",
       "local_part": "Local part",
@@ -216,6 +222,7 @@
       "mailinglist_ids": "Mailinglists"
     },
     "alias": {
+      "id": "id",
       "name": "Name",
       "description": "Description",
       "emailaddress": "Email Address"

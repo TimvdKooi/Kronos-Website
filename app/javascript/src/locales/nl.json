@@ -139,6 +139,7 @@
   },
   "models": {
     "generic": {
+      "id": "id",
       "created_at": "Aangemaakt op"
     },
     "modelNames": {
@@ -163,6 +164,7 @@
       "alias_plural": "Aliassen"
     },
     "agendaitem": {
+      "id": "id",
       "name": "Naam (Nederlands)",
       "name_en": "Naam (Engels)",
       "date": "Datum",
@@ -178,6 +180,7 @@
       "maxsubscription": "Maximum inschrijvingen"
     },
     "newsitem": {
+      "id": "id",
       "title": "Kop (Nederlands)",
       "title_en":"Kop (Engels)",
       "news": "Nieuws bericht (Nederlands)",
@@ -185,6 +188,7 @@
       "articlephoto": "Foto"
     },
     "page": {
+      "id": "id",
       "pagetag": "Pagina tag",
       "pagetag_en":"Pagina tag (Engels)",
       "information": "Pagina inhoud (Nederlands)",
@@ -195,6 +199,7 @@
       "sort_order": "Volgorde"
     },
     "photoalbum": {
+      "id": "id",
       "name": "Naam (Nederlands)",
       "name_en":"Naam (Engels)",
       "date": "Datum",
@@ -202,11 +207,13 @@
       "external_url": "Externe URL"
     },
     "contact": {
+      "id": "id",
       "name": "Naam",
       "email": "Email",
       "message": "Bericht"
     },
     "mailingList": {
+      "id": "id",
       "name": "Naam",
       "description": "Omschrijving",
       "local_part": "Lokaal deel (voor de @)",
@@ -216,6 +223,7 @@
       "mailinglist_ids": "Mailinglijsten"
     },
     "alias": {
+      "id": "id",
       "name": "Naam",
       "description": "Omschrijving",
       "emailaddress": "Email adres"

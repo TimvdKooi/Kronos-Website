@@ -60,7 +60,7 @@
     },
     {
         "name": "agendaitemtypes",
-        "translationKey": "agendaitemtypes",
+        "translationKey": "agendaitemtype",
         "fields": [{
             "name": "name",
             "type": "text"
@@ -95,7 +95,7 @@
     },
     {
         "name": "comments",
-        "translationKey": "comments",
+        "translationKey": "comment",
         "fields": [{
             "name": "user_id",
             "type": "number"
@@ -125,134 +125,177 @@
     {
         "name": "commission_memberships",
         "translationKey": "commission_memberships",
-        "fields": [{
-            "name": "function",
-            "type": "text"
-        }, {
-            "name": "installed",
-            "type": "boolean"
-        }, {
-            "name": "user_id",
-            "type": "number"
-        }, {
-            "name": "commission_id",
-            "type": "number"
-        }]
+        "fields": [
+            { "name": "function", "type": "text"}, 
+            {"name": "installed", "type": "boolean"}, 
+            {"name": "user_id", "type": "number"}, 
+            {"name": "commission_id", "type": "number"}
+        ]
     },
     {
         "name": "commissions",
-        "translationKey": "commissions",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "translationKey": "commission",
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "description", "type": "text"},
+            {"name": "email", "type": "text"},
+            {"name": "role", "type": "text"},
+            {"name": "name_en", "type": "text"}
+        ]
     },
     {
         "name": "events",
         "translationKey": "events",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "date", "type": "text"},
+            {"name": "eventtype_id", "type": "number"},
+            {"name": "agendaitem_id", "type": "number"},
+            {"name": "distance", "type": "number"}
+        ]
     },
     {
         "name": "eventtypes",
         "translationKey": "eventtypes",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "formula", "type": "text"},
+            {"name": "shortname", "type": "text"},
+            {"name": "measuringunit", "type": "text"},
+            {"name": "calculated_unit", "type": "text"},
+            {"name": "show_wind", "type": "boolean"},
+            {"name": "female_formula", "type": "text"},
+            {"name": "important", "type": "boolean"}
+        ]
     },
     {
         "name": "folders",
         "translationKey": "folders",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "folder_id", "type": "number"}
+        ]
     },
     {
         "name": "kronometers",
-        "translationKey": "kronometers",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "translationKey": "kronometer",
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "date", "type": "text"},
+            {"name": "file", "type": "file"},
+            {"name": "folder_id", "type": "number"},
+            {"name": "public", "type": "boolean"}
+        ]
     },
     {
         "name": "mailinglists",
-        "translationKey": "mailinglists",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "translationKey": "mailingList",
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "description", "type": "text"},
+            {"name": "local_part", "type": "text"},
+            {"name": "commission_id", "type": "number"},
+            {"name": "mailinglist_id", "type": "number"}
+        ]
     },
     {
         "name": "newsitems",
         "translationKey": "newsitems",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "tile", "type": "text"},
+            {"name": "news", "type": "text"},
+            {"name": "agreed", "type": "boolean"},
+            {"name": "user_id", "type": "number"},
+            {"name": "articlephoto", "type": "file"},
+            {"name": "title_en", "type": "text"},
+            {"name": "news_en", "type": "text"}
+        ]
     },
     {
         "name": "pages",
         "translationKey": "pages",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "information", "type": "text"},
+            {"name": "pagetag", "type": "text"},
+            {"name": "menu", "type": "text"},
+            {"name": "boolean", "type": "boolean"},
+            {"name": "pagetag_en", "type": "text"},
+            {"name": "information_en", "type": "text"},
+            {"name": "public", "type": "boolean"},
+            {"name": "sort_order", "type": "integer"}
+        ]
     },
     {
         "name": "photoalbums",
         "translationKey": "photoalbums",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "agendaitem_id", "type": "text"},
+            {"name": "public", "type": "boolean"},
+            {"name": "eventdate", "type": "date"},
+            {"name": "name_en", "type": "text"},
+            {"name": "url", "type": "text"}
+
+        ]
     },
     {
         "name": "photos",
         "translationKey": "photos",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
-    }
-    ,
+        "fields": [
+            {"name": "caption", "type": "text"},
+            {"name": "photo", "type": "file"},
+            {"name": "photoalbum_id", "type": "number"},
+            {"name": "youtube_id", "type": "number"},
+            {"name": "processing", "type": "boolean"},
+            {"name": "exif_date", "type": "date"}
+        ]
+    },
     {
         "name": "results",
         "translationKey": "results",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "username", "type": "text"},
+            {"name": "result", "type": "text"},
+            {"name": "event_id", "type": "number"},
+            {"name": "user_id", "type": "number"},
+            {"name": "wind", "type": "text"},
+            {"name": "place", "type": "number"},
+            {"name": "calculated", "type": "number"}
+        ]
     }
     ,
     {
         "name": "subscriptions",
         "translationKey": "subscriptions",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "comment", "type": "text"},
+            {"name": "user_id", "type": "number"},
+            {"name": "agendaitem_id", "type": "number"},
+            {"name": "reserve", "type": "boolean"}
+        ]
     }
     ,
     {
         "name": "user_types",
         "translationKey": "user_types",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "donor", "type": "boolean"},
+            {"name": "competition", "type": "boolean"},
+            {"name": "agendaitem_id", "type": "number"},
+            {"name": "name_en", "type": "text"}
+        ]
     }
     ,
     {
         "name": "users",
         "translationKey": "users",
-        "fields": [{
-            "name": "",
-            "type": "text"
-        }]
+        "fields": [
+            {"name": "name", "type": "text"},
+            {"name": "comment", "type": "text"},
+            {"name": "user_id", "type": "number"},
+            {"name": "agendaitem_id", "type": "number"},
+            {"name": "reserve", "type": "boolean"}
+        ]
     }
 ]
